@@ -1,0 +1,193 @@
+$header-background: #fff;
+$header-link-color: rgba(44, 56, 74, 0.681);
+$footer-height: 3rem;
+
+ol,p,ul,li {
+  margin: 0;
+}
+
+ol,ul {
+  padding: 0
+}
+
+ol[class],ul[class] {
+  list-style: none
+}
+
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+.footer {
+  min-height: $footer-height;
+  background: #2a292c;
+
+  .info{
+    padding: 60px 0;
+    border-bottom: 1px solid #4e4c50;
+    color: #fff;
+
+    .col-left {
+      width: 225px;
+    }
+
+    .col-right {
+      width: calc(100% - 225px);
+      padding-left: 60px;
+
+      >*+* {
+        margin-top: 8px; 
+      }
+      p {
+        font-size: 12px;
+        color: #b8b7b9;
+        line-height: 18px;
+      }
+    }
+
+    .company {
+      margin-bottom: 22px;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+    }
+
+    .icon-phone {
+      width: 18px;
+      height: 18px;
+      margin: 2px 9px 0 0;
+    }
+
+    .hotline {
+      a {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        color: #fff;
+      }
+    }
+  }
+
+  .icon-phone {
+    background: url(https://monkeymedia.vcdn.com.vn/upload/web/img_default/icon-phone.svg) no-repeat 0 0/contain;
+  }
+
+  .middle {
+    margin-top: 60px;
+    .nav-title, h5, li a {
+      line-height: 20px;
+    }
+    .nav-title {
+      margin-bottom: 24px; 
+      color: #fff; 
+      font-weight: 700; 
+      text-transform: uppercase;
+    }
+    h5 {
+      font-weight: 500; 
+      color: #fff;
+    }
+    li a {
+      color: #B8B7B9;
+      text-transform: capitalize;
+      font-size: 14px;
+      &:hover {
+        color: white;
+      }
+    }
+    .menu{
+      >*+*{margin-top: 10px;}
+    }
+    .col{
+      padding: 0;
+      margin-right: 60px;
+      flex-basis: inherit; 
+      flex-grow: inherit;
+    }
+
+    .col1{
+      width: 181px;
+      
+    }
+    .col2{
+      width: 116px;
+    }
+    .col3{
+      width: 148px;
+    }
+    .col4{
+      width: 415px;
+      margin: 0 0 0 70px;
+    }
+  }
+  .service{
+    margin-top: 44px;
+    p{margin-bottom: 11px; font-weight: 500; color: #fff;}
+    span{font-size: 12px; color: #B8B7B9; line-height: 18px;}
+    .box-btn{
+      margin-bottom: 20px;
+      >*+*{margin-left: 18px;}
+      a{
+        display: flex;
+        align-items: center;
+        padding: 10px 14px;
+        border: 1px solid #FFFFFF;
+        border-radius: 6px;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+        color: #fff;
+      }
+      .icon{margin-right: 9px; display: inline-block;}
+      .icon-phone{width: 16px; height: 16px;}
+      .icon-mail{width: 16px; height: 14px; background: url("https://monkeymedia.vcdn.com.vn/upload/web/img_default/icon-mail.svg") no-repeat 0 0/contain;}
+    }
+  }
+  .social {
+    margin-top: 32px;
+    p {
+      margin-bottom: 16px; 
+      font-weight: 500; 
+      color: #fff;
+    }
+    a {
+      display: block; 
+      width: 44px; 
+      height: 44px; 
+      font-size: 0;
+    }
+    .facebook {
+      margin-right: 24px; 
+      background: url("https://monkeymedia.vcdn.com.vn/upload/web/img_default/facebook.svg") no-repeat 0 0/contain;
+    }
+    .youtube {
+      background: url("https://monkeymedia.vcdn.com.vn/upload/web/img_default/youtube.svg") no-repeat 0 0/contain;
+    }
+  }
+
+  .dmca-badge{
+    width: 132px; height: 50px;
+    margin-top: -42px;
+    font-size: 0;
+    position: absolute; right: 145px;
+  }
+  .fs-ftr-cthuong {
+    width: 132px; 
+    height: 50px;
+    margin-top: -50px;
+    background: url("https://monkeymedia.vcdn.com.vn/upload/web/img_default/bocongthuong.png") no-repeat 0 0/contain;
+    font-size: 0;
+    position: absolute; right: 5px;
+  }
+
+  .bottom{
+    margin-top: 55px;
+    padding: 32px 0 50px;
+    border-top: 1px solid #4E4C50;
+  }
+  .copyright {
+    font-size: 12px;
+    line-height: 18px;
+    color: #b8b7b9;
+  }
+}

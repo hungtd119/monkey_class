@@ -1,0 +1,21 @@
+.option_cus {
+  &:hover {
+    background-color: rgb(222, 235, 255);
+    color: black;
+  }
+}
+.is_active {
+  background-color: #2684ff !important;
+  color: white !important;
+}
+.is_disabled {
+  &:hover {
+    background-color: white !important;
+  }
+  color: black;
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+.disable_event{
+  pointer-events: none;
+}

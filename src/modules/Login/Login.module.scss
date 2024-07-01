@@ -1,0 +1,27 @@
+.iconEye {
+  top: 40px;
+  right: 15px;
+  z-index: 15;
+  font-size: 16px;
+}
+
+.footer_text {
+  padding-top: 10px;
+  text-align: center;
+  color: #98a6ad;
+  font-size: 13px;
+}
+
+.formControlCustom:focus {
+  border-color: #00d3b9 !important;
+  box-shadow: 0 0 0 0.2rem rgb(0 211 185 / 64%) !important;
+}
+
+.cursorPointer {
+  cursor: pointer !important;
+}
+.cursor_auto {
+  &:hover {
+    cursor: auto !important;
+  }
+}

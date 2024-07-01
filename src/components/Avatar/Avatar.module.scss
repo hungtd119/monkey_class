@@ -1,0 +1,10 @@
+.avatar {
+    z-index: 1;
+    position: relative;
+    transition: transform 0.2s ease;
+    object-fit: cover;
+
+    &:hover:not(:last-of-type) {
+        transform: translate(-10px);
+    }
+}

@@ -1,0 +1,41 @@
+// attendence
+.table_separate {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.text_attendence {
+    color: #424242 !important;
+}
+
+.th {
+    background-color: #F14D58 !important;
+    color: #FFFFFF !important;
+    padding: 12px;
+}
+
+.td {
+    border: solid 1px #FF9500;
+    border-style: solid none solid none;
+    padding: 10px;
+    background-color: #FFF8EE !important;
+}
+
+.tr:first-child .th:first-child {
+    border-top-left-radius: 12px;
+    border-left-style: solid;
+    border-left-style: solid;
+}
+
+.tr:first-child .th:last-child {
+    border-top-right-radius: 12px;
+    border-right-style: solid;
+}
+
+.td:first-child {
+    border-left-style: solid;
+}
+
+.td:last-child {
+    border-right-style: solid;
+}

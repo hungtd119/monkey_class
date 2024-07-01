@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  app:
+    container_name: web-phhs-dev
+    image: web-phhs-dev
+    build:
+      context: .
+      dockerfile: Dockerfile-dev
+    volumes:
+      - ./src:/app/src
+      - ./public:/app/public
+    ports:
+      - "9103:3000"

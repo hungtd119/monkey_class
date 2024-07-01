@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  app:
+    container_name: web-phhs
+    image: web-phhs
+    build: .
+    ports:
+      - 9601:3000
+    volumes:
+      - ./src:/app/src
+      - ./public:/app/public
